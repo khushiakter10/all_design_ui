@@ -58,9 +58,10 @@ class BoxDesign extends StatelessWidget {
             ),
             Container(
               padding: const EdgeInsets.all(10),
-              height: 70,
+              height: 80,
               decoration: BoxDecoration(
                 border: Border.all(color: Colors.green, width: 3),
+                borderRadius: const BorderRadius.all(Radius.circular(10))
               ),
               child: const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -96,7 +97,7 @@ class BoxDesign extends StatelessWidget {
             Container(
               height: 80,
               decoration: BoxDecoration(
-                border: Border.all(color: Color(0xff20d7e6 ), width: 3),
+                border: Border.all(color: const Color(0xff20d7e6 ), width: 3),
                 borderRadius: const BorderRadius.all(
                   Radius.circular(20),
                 ),
