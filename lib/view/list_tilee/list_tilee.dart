@@ -8,29 +8,111 @@ class ListTilee extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: Text(
-          "Listttilee",
-          style: TextStyle(
-              color: Colors.indigo, fontWeight: FontWeight.bold, fontSize: 20),
+        title: const Center(
+          child: Text(
+            "Listttilee",
+            style: TextStyle(
+                color: Colors.indigo, fontWeight: FontWeight.bold, fontSize: 20),
+          ),
         ),
       ),
-      body: Column(
+      body: const Column(
         children: [
           ListTile(
-            leading: Icon(
-              Icons.account_circle,
-              size: 30,
-              color: Colors.blue,
-            ),
-            title: Text("Dinajpur phulbari"),
+            leading: Icon(Icons.account_circle,size: 50,color: Colors.blue,),
+            title: Text("Moble phne",),
             subtitle: Row(
               children: [
-                Icon(Icons.sim_card),
-                Text("Fhulbari"),
+                Icon(Icons.sim_card,size: 20,color: Colors.grey),
+                Text("Fahim",style: TextStyle(fontSize: 20,color: Colors.black),),
               ],
             ),
-            trailing: Icon(Icons.call),
-          )
+            trailing: Icon(Icons.add_call,size: 30,color: Colors.blue,),
+          ),
+          SizedBox(height: 10,),
+          ListTile(
+            leading: Icon(Icons.account_circle,size: 50,color: Colors.blue,),
+            title: Text("Moble phne",),
+            subtitle: Row(
+              children: [
+                Icon(Icons.sim_card,size: 20,color: Colors.grey),
+                Text("Fahim",style: TextStyle(fontSize: 20,color: Colors.black),),
+              ],
+            ),
+            trailing: Icon(Icons.add_call,size: 30,color: Colors.blue,),
+          ),
+          SizedBox(height: 10,),
+          ListTile(
+            leading: Icon(Icons.account_circle,size: 50,color: Colors.blue,),
+            title: Text("Moble phne",),
+            subtitle: Row(
+              children: [
+                Icon(Icons.sim_card,size: 20,color: Colors.grey),
+                Text("Fahim",style: TextStyle(fontSize: 20,color: Colors.black),),
+              ],
+            ),
+            trailing: Icon(Icons.add_call,size: 30,color: Colors.blue,),
+          ),
+          SizedBox(height: 10,),
+          ListTile(
+            leading: Icon(Icons.account_circle,size: 50,color: Colors.blue,),
+            title: Text("Moble phne",),
+            subtitle: Row(
+              children: [
+                Icon(Icons.sim_card,size: 20,color: Colors.grey),
+                Text("Fahim",style: TextStyle(fontSize: 20,color: Colors.black),),
+              ],
+            ),
+            trailing: Icon(Icons.add_call,size: 30,color: Colors.blue,),
+          ),
+          SizedBox(height: 10,),
+          ListTile(
+            leading: Icon(Icons.account_circle,size: 50,color: Colors.blue,),
+            title: Text("Moble phne",),
+            subtitle: Row(
+              children: [
+                Icon(Icons.sim_card,size: 20,color: Colors.grey),
+                Text("Fahim",style: TextStyle(fontSize: 20,color: Colors.black),),
+              ],
+            ),
+            trailing: Icon(Icons.add_call,size: 30,color: Colors.blue,),
+          ),
+          SizedBox(height: 10,),
+          ListTile(
+            leading: Icon(Icons.account_circle,size: 50,color: Colors.blue,),
+            title: Text("Moble phne",),
+            subtitle: Row(
+              children: [
+                Icon(Icons.sim_card,size: 20,color: Colors.grey),
+                Text("Fahim",style: TextStyle(fontSize: 20,color: Colors.black),),
+              ],
+            ),
+            trailing: Icon(Icons.add_call,size: 30,color: Colors.blue,),
+          ),
+          SizedBox(height: 10,),
+          ListTile(
+            leading: Icon(Icons.account_circle,size: 50,color: Colors.blue,),
+            title: Text("Moble phne",),
+            subtitle: Row(
+              children: [
+                Icon(Icons.sim_card,size: 20,color: Colors.grey),
+                Text("Fahim",style: TextStyle(fontSize: 20,color: Colors.black),),
+              ],
+            ),
+            trailing: Icon(Icons.add_call,size: 30,color: Colors.blue,),
+          ),
+          SizedBox(height: 10,),
+          ListTile(
+            leading: Icon(Icons.account_circle,size: 50,color: Colors.blue,),
+            title: Text("Moble phne",),
+            subtitle: Row(
+              children: [
+                Icon(Icons.sim_card,size: 20,color: Colors.grey),
+                Text("Fahim",style: TextStyle(fontSize: 20,color: Colors.black),),
+              ],
+            ),
+            trailing: Icon(Icons.add_call,size: 30,color: Colors.blue,),
+          ),
         ],
       ),
     );
